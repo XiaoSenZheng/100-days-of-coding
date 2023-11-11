@@ -17,5 +17,5 @@ while True:
       if int(bid) > highest:
         highest = int(bid)
         winner = key
-        print(f"The winner is {winner} with a bid of ${highest}")
+    print(f"The winner is {winner} with a bid of ${highest}")
   break
