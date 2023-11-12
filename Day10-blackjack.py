@@ -60,7 +60,10 @@ def calculate_score(cards):
 
 #Hint 9: Call calculate_score(). If the computer or the user has a blackjack (0) or if the user's score is over 21, then the game ends.
 def compare(user_score, computer_score):
-  if user_score == 0:
+  if user_score == computer_score:
+    print("Draw")
+    return
+  elif user_score == 0:
     print("You got a blackjack! You win!")
     return
 
